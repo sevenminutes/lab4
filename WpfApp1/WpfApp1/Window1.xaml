@@ -1,0 +1,21 @@
+﻿<Window x:Name="StudentWindow" x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="StudentEdit" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="bOK" Content="OK" HorizontalAlignment="Left" Margin="153,341,0,0" VerticalAlignment="Top" Height="31" Width="84" Click="bOK_Click"/>
+        <Label x:Name="Nazwisko" Content="Nazwisko" HorizontalAlignment="Left" Margin="65,96,0,0" VerticalAlignment="Top" Height="40" Width="102"/>
+        <Label x:Name="NrAlbumu" Content="Numer albumu" HorizontalAlignment="Left" Margin="62,159,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.508,-0.945" Height="32" Width="94"/>
+        <Label x:Name="imie" Content="Imię" HorizontalAlignment="Left" Margin="62,39,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.661,0.431" Height="36" Width="88"/>
+        <Label x:Name="Wydzial" Content="Wydział" HorizontalAlignment="Left" Margin="65,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.207,-0.6" Width="94" Height="39"/>
+        <TextBox x:Name="tbImie1" HorizontalAlignment="Left" Margin="167,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="36"/>
+        <TextBox x:Name="tbNazwisko" HorizontalAlignment="Left" Margin="167,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="36"/>
+        <TextBox x:Name="tbNrIndeksu" HorizontalAlignment="Left" Margin="167,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="36"/>
+        <TextBox x:Name="tbWydzial" HorizontalAlignment="Left" Margin="167,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="36"/>
+
+    </Grid>
+</Window>
